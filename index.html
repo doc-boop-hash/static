@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Isha Gawande — Senior Producer</title>
+<meta name="description" content="Isha Gawande — Senior Producer. Non-fiction, branded content &amp; original IP development across documentary, lifestyle, food and culture storytelling.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="preloader">
+  <div class="pre-bars"><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="pre-mark">ISHA GAWANDE</div>
+  <div class="pre-count"><span class="pre-ring"></span><span id="preNum">LOADING REEL — 00%</span></div>
+</div>
+
+<div id="cursor"></div>
+<canvas id="grain"></canvas>
+<div id="hud"><span class="dot"></span><span id="hudTime">REC 00:00:00</span></div>
+
+<header class="hero band band--ink">
+  <div class="hero__portrait">
+    <span class="hero__glow" aria-hidden="true"></span>
+    <img class="hero__img" src="assets/isha-portrait.png" alt="Portrait of Isha Gawande" width="1200" height="800">
+  </div>
+  <div class="wrap hero__content">
+    <div class="hero__text">
+      <div class="hero__eyebrow">About Me</div>
+      <h1 class="hero__title">
+        <span><em>Isha</em></span>
+        <span><em>Gawande</em></span>
+      </h1>
+      <div class="hero__role">Senior Creative Producer &amp; Writer</div>
+      <div class="hero__pillars">
+        <span class="hero__pillar"><em>01</em>Branded Content &amp; Brand Solutions</span>
+        <span class="hero__pillar"><em>02</em>Creative Strategy</span>
+        <span class="hero__pillar"><em>03</em>AI-Led Storytelling</span>
+        <span class="hero__pillar"><em>04</em>Cross-Genre IP Development</span>
+      </div>
+      <p class="hero__tag">Working across Branded Content &amp; Brand Solutions, translating brand objectives into creative ideas, original IPs and compelling storytelling formats across genres, industries and platforms.</p>
+      <div class="hero__scroll"><span class="bar"></span>SCROLL</div>
+    </div>
+  </div>
+</header>
+
+<section class="band band--paper" id="profile">
+  <div class="wrap">
+    <div class="scene"><span class="scene__num">SCENE 01</span><span class="scene__rule"></span><span>PROFILE</span></div>
+    <div class="profile__grid">
+      <p class="profile__quote" id="profileQuote"></p>
+      <div class="profile__meta">
+        <div class="reveal">— <b>Three years</b> at Warner Bros. Discovery</div>
+        <div class="reveal">— Food, travel, culture &amp; lifestyle</div>
+        <div class="reveal">— Sustainability, purpose-led storytelling</div>
+        <div class="reveal">— Based in <b>Mumbai, India</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--ink" id="stats">
+  <div class="wrap">
+    <div class="stats__grid">
+      <div class="stat reveal"><div class="stat__num"><span class="flare">8</span><span data-suffix>+</span></div><div class="stat__label">YEARS IN THE INDUSTRY</div></div>
+      <div class="stat reveal"><div class="stat__num" data-count="4"><span data-suffix></span></div><div class="stat__label">NATIONAL / GOLD AWARD WINS</div></div>
+      <div class="stat reveal"><div class="stat__num" data-count="14"><span data-suffix>M+</span></div><div class="stat__label">DIGITAL VIEWS — MANKIND × DISCOVERY</div></div>
+      <div class="stat reveal"><div class="stat__num" data-count="5"><span data-suffix></span></div><div class="stat__label">TOTAL AWARD WINS ACROSS ALL PROJECTS</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--paper" id="skills">
+  <div class="wrap">
+    <div class="scene"><span class="scene__num">SCENE 02</span><span class="scene__rule"></span><span>CRAFT &amp; TOOLS</span></div>
+    <div class="skills__grid">
+      <div class="skillcat">
+        <h3>
+          <svg class="skillcat__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M8 8h8M8 12h8M8 16h5"/>
+          </svg>
+          Content
+        </h3>
+        <ul>
+          <li tabindex="0" data-desc="Real stories told with narrative craft — not scripted fiction.">Non-fiction</li>
+          <li tabindex="0" data-desc="Long-form factual storytelling, from research through final cut.">Documentary</li>
+          <li tabindex="0" data-desc="Content built around a brand's story, not just its logo.">Branded Entertainment</li>
+          <li tabindex="0" data-desc="New formats and shows, developed and pitched from the ground up.">Original IP</li>
+        </ul>
+      </div>
+      <div class="skillcat">
+        <h3>
+          <svg class="skillcat__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3 11.2c.6.4 1 1.1 1 1.8h4c0-.7.4-1.4 1-1.8A6 6 0 0 0 12 3Z"/>
+          </svg>
+          Creative
+        </h3>
+        <ul>
+          <li tabindex="0" data-desc="Turning a raw idea into a workable, pitchable show format.">Concept Development</li>
+          <li tabindex="0" data-desc="Shaping narrative arc, character and structure before the shoot.">Story Development</li>
+          <li tabindex="0" data-desc="Deep-diving a subject and its people before a word gets written.">Research</li>
+          <li tabindex="0" data-desc="Writing scripts, narration and on-screen dialogue.">Scripting</li>
+          <li tabindex="0" data-desc="Packaging an idea to sell it to a client, brand or network.">Treatments &amp; Pitches</li>
+        </ul>
+      </div>
+      <div class="skillcat">
+        <h3>
+          <svg class="skillcat__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 8.5 21 8.5 21 19a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/><path d="M3 8.5 4.5 4h15.5L21 8.5"/><path d="M7 4 8.5 8.5M12 4 13.5 8.5M17 4 18.5 8.5"/>
+          </svg>
+          Production
+        </h3>
+        <ul>
+          <li tabindex="0" data-desc="Owning a project from brief through research, shoot and final delivery.">End-to-End Production</li>
+          <li tabindex="0" data-desc="Keeping talent, clients and crews aligned through the shoot.">Talent &amp; Stakeholder Management</li>
+          <li tabindex="0" data-desc="Scheduling, budgeting and logistics before the cameras roll.">Production Planning</li>
+          <li tabindex="0" data-desc="Overseeing edit, grade, sound and final delivery.">Post-Production</li>
+        </ul>
+      </div>
+      <div class="skillcat">
+        <h3>
+          <svg class="skillcat__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 2 13.8 9.2 21 11 13.8 12.8 12 20 10.2 12.8 3 11 10.2 9.2Z"/>
+          </svg>
+          AI &amp; Emerging Tools
+        </h3>
+        <ul>
+          <li tabindex="0" data-desc="AI video generation for previs, VFX tests and rapid iteration.">Runway</li>
+          <li tabindex="0" data-desc="Using generative AI to speed up ideation, drafts and visuals.">Generative AI Tools</li>
+        </ul>
+      </div>
+      <div class="skillcat">
+        <h3>
+          <svg class="skillcat__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M3 11.5V5a2 2 0 0 1 2-2h6.5L21 12.5a2 2 0 0 1 0 2.8l-5.7 5.7a2 2 0 0 1-2.8 0L3 11.5Z"/><circle cx="8" cy="8" r="1.3" fill="currentColor" stroke="none"/>
+          </svg>
+          Brand
+        </h3>
+        <ul>
+          <li tabindex="0" data-desc="Weaving brand messaging naturally into the story, not bolted on.">Brand Integration</li>
+          <li tabindex="0" data-desc="Working closely with brand and marketing teams through production.">Client Collaboration</li>
+          <li tabindex="0" data-desc="Same story, reformatted and recut for TV, digital and social.">Multi-platform Content</li>
+          <li tabindex="0" data-desc="Co-creating original IP and campaigns alongside brand partners.">Creative Partnerships</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--raised" id="experience">
+  <div class="wrap">
+    <div class="scene"><span class="scene__num">SCENE 03</span><span class="scene__rule"></span><span>CREDITS</span></div>
+    <div class="timeline">
+      <div class="timeline__rail"><div class="timeline__fill" id="timelineFill"></div></div>
+
+      <div class="role">
+        <span class="role__dot"></span>
+        <div class="role__head"><h3 class="role__org">Warner Bros. Discovery</h3><span class="role__date">2023 — PRESENT</span></div>
+        <div class="role__title">SENIOR PRODUCER</div>
+        <ul class="role__list">
+          <li>Produce and develop non-fiction and branded entertainment across the Discovery ecosystem — from brief and concept through research, scripting, production and final delivery.</li>
+          <li>Work across documentary, lifestyle, food, culture, sustainability and purpose-led storytelling with clients, talent, internal creative teams and production partners.</li>
+          <li>Selected productions: Vivo Imagine, Good Morning India with Nutella, The Story of Havells, Roots of My Platter, Mankind × Discovery, Maidaan Saaf, The Vim Maha Kadhai Record.</li>
+          <li>Original IP &amp; pitch-led development: Eat, Train, Repeat S2 · The Divine Trail · Impressions · Insure Talk · Brand Bites · Men Like Him · Flavour Trails.</li>
+        </ul>
+      </div>
+
+      <div class="role">
+        <span class="role__dot"></span>
+        <div class="role__head"><h3 class="role__org">Soham Shah Films</h3><span class="role__date">2022 — 2023</span></div>
+        <div class="role__title">ASSISTANT CREATIVE PRODUCER</div>
+        <ul class="role__list">
+          <li>Researched and developed stories based on the work of writer Narayan Dharap, contributing research and creative inputs toward screen projects.</li>
+          <li>Contributed to the research and development of story concepts for Tumbbad 2, working with Sohum Shah and exploring the literary works of acclaimed horror writer Narayan Dharap as source material for story development.</li> 
+        </ul>
+      </div>
+
+      <div class="role">
+        <span class="role__dot"></span>
+        <div class="role__head"><h3 class="role__org">Freelance / Independent Production</h3><span class="role__date">2018 — 2022</span></div>
+        <div class="role__title">PRODUCER · AD · WRITER</div>
+        <ul class="role__list">
+          <li>Chief Assistant Director — 1947 Productions (2023).</li>
+          <li><em style="font-style:italic">Plastic Fantastic</em> — Best Indian Documentary, Indian Telly Streaming Awards; released on DocuBay. <a class="card__link" href="https://youtu.be/GTVAro7PJfQ" target="_blank" rel="noopener">WATCH TRAILER ↗</a></li>
+          <li><em style="font-style:italic">Women in Creativity</em> — conceptualised &amp; produced an event-content IP for Rolling Stone India × Hoegaarden. <a class="card__link" href="https://youtu.be/OS6Wi_pH5K8" target="_blank" rel="noopener">WATCH AFTERMOVIE ↗</a></li>
+          <li><em style="font-style:italic">Frontiers of Melghat | Aranyam</em> — Director &amp; Writer; <em style="font-style:italic">The Flamingos and Other Migratory Birds Tour</em> — First AD, FTII Pune.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--paper" id="work">
+  <div class="wrap">
+    <div class="scene"><span class="scene__num">SCENE 04</span><span class="scene__rule"></span><span>SELECTED WORK</span></div>
+    <div class="work__grid">
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">CC</span><span class="card__client">COCA-COLA INDIA × WBD</span></span>
+          <span class="card__idx">01</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 8.5 21 8.5 21 19a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z"/>
+          <path d="M3 8.5 4.5 4h15.5L21 8.5"/>
+          <path d="M7 4 8.5 8.5M12 4 13.5 8.5M17 4 18.5 8.5"/>
+        </svg>
+        <div><div class="card__title">Maidaan Saaf</div><p class="card__desc">Purpose-led documentary at Maha Kumbh 2025.</p></div>
+        <div class="card__stat">NATIONAL WINNER — BEST BRANDED PROGRAMME, AACA 2025 <a class="card__link" href="https://youtu.be/7PKpLenMeGo" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">VIM</span><span class="card__client">VIM × WBD</span></span>
+          <span class="card__idx">02</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7 4h10v4a5 5 0 0 1-10 0Z"/>
+          <path d="M7 5H4a1 1 0 0 0-1 1 4 4 0 0 0 4 4M17 5h3a1 1 0 0 1 1 1 4 4 0 0 1-4 4"/>
+          <path d="M12 13v3.5M9.5 20h5M10.5 16.5h3v2a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1Z"/>
+        </svg>
+        <div><div class="card__title">Vim Maha Kadhai Record</div><p class="card__desc">Branded feature built around a record-setting halwa spectacle and cleaning feat.</p></div>
+        <div class="card__stat">398K REACH · +9% SLOT UPLIFT <a class="card__link" href="https://youtu.be/x9pvZw8Qc3E" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">MP</span><span class="card__client">MANKIND PHARMA × WBD</span></span>
+          <span class="card__idx">03</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 12h4l2-6 4 12 2-6h6"/>
+        </svg>
+        <div><div class="card__title">Mankind × Discovery</div><p class="card__desc">150-sec documentary-style branded film.</p></div>
+        <div class="card__stat">~14M DIGITAL VIEWS · ~0.9M REACH</div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">NU</span><span class="card__client">NUTELLA × WBD</span></span>
+          <span class="card__idx">04</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 9h12v5a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V9Z"/>
+          <path d="M16 10.5h1.5a2 2 0 0 1 0 4H16"/>
+          <path d="M7 3c0 1-1 1-1 2M11 3c0 1-1 1-1 2"/>
+        </svg>
+        <div><div class="card__title">Good Morning India with Nutella</div><p class="card__desc">10 × 5-min episodes, 1 × 45-sec promo, 10 × 3-min recipe videos + social amplification.</p></div>
+        <div class="card__stat">MULTI-PLATFORM SERIES <a class="card__link" href="https://youtu.be/0XH2P9G5shg" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">WBD</span><span class="card__client">WARNER BROS. DISCOVERY</span></span>
+          <span class="card__idx">05</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="7"/>
+          <circle cx="12" cy="12" r="2.3"/>
+        </svg>
+        <div><div class="card__title">Roots of My Platter</div><p class="card__desc">S2: 4 × 10-min episodes. S3: national recognition for lifestyle storytelling.</p></div>
+        <div class="card__stat">NATIONAL WINNER — BEST LIFESTYLE PROGRAMME, AACA 2025 <a class="card__link" href="https://youtu.be/IhCAdhaKq20" target="_blank" rel="noopener">WATCH S3 ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">VI</span><span class="card__client">VIVO INDIA × WBD</span></span>
+          <span class="card__idx">06</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="7" width="18" height="13" rx="2"/>
+          <path d="M8 7 9.5 4h5L16 7"/>
+          <circle cx="12" cy="13.5" r="3.4"/>
+        </svg>
+        <div><div class="card__title">Vivo Imagine</div><p class="card__desc">Multi-phase smartphone photography awards IP — 21,000+ campaign participants.</p></div>
+        <div class="card__stat">GOLD — SCREENXX + INDIAN MARKETING AWARDS <a class="card__link" href="https://youtu.be/UfKMQTMLrEg" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">KI</span><span class="card__client">KISSAN × WBD</span></span>
+          <span class="card__idx">07</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18"/>
+          <path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z"/>
+        </svg>
+        <div><div class="card__title">World On My Plate</div><p class="card__desc">Travel-and-food series with chef Shipra Khanna across London &amp; Spain — 3 × 22-min episodes + co-branded digital extensions.</p></div>
+        <div class="card__stat">~39L VIEWS · ~23.5L REACH — SHOW PROMO <a class="card__link" href="https://www.youtube.com/watch?v=wlmHBA2UBqA" target="_blank" rel="noopener">WATCH COVERAGE ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">MS</span><span class="card__client">MYSORE SANDAL SOAP × WBD</span></span>
+          <span class="card__idx">08</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+          <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+        </svg>
+        <div><div class="card__title">Mysore Sandal Soap</div><p class="card__desc">Branded documentary feature on India's heritage sandalwood soap brand.</p></div>
+        <div class="card__stat"><a class="card__link" href="https://youtu.be/Mqby7EqP7II" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">SBI</span><span class="card__client">SBI × WBD</span></span>
+          <span class="card__idx">09</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 10 12 4l9 6"/>
+          <path d="M5 10v9M9 10v9M15 10v9M19 10v9"/>
+          <path d="M3 19h18"/>
+        </svg>
+        <div><div class="card__title">Mega Banks of India</div><p class="card__desc">BFSI documentary IP on the legacy of India's banking giants — curtain raiser on SBI, Banker to Every Indian.</p></div>
+        <div class="card__stat">22-MIN EPISODE · DISCOVERY &amp; DISCOVERY+ <a class="card__link" href="https://youtu.be/MuJ4xVLQJFs" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">HA</span><span class="card__client">HAVELLS × WBD</span></span>
+          <span class="card__idx">10</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z"/>
+        </svg>
+        <div><div class="card__title">The Story of Havells</div><p class="card__desc">Brand documentary charting Havells' growth into a homegrown electricals giant.</p></div>
+        <div class="card__stat"><a class="card__link" href="https://youtu.be/ig-RkYbr0zc" target="_blank" rel="noopener">WATCH DOCU ↗</a> <a class="card__link" href="https://youtu.be/mnaKmg4lN0A" target="_blank" rel="noopener">WATCH STORY ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">GG</span><span class="card__client">GOVT. OF GUJARAT × WBD</span></span>
+          <span class="card__idx">11</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 20V10"/>
+          <path d="M12 10C8 10 6 6 6 3c4 0 7 2 7 7"/>
+          <path d="M12 10c4 0 6-4 6-7-4 0-7 2-7 7"/>
+        </svg>
+        <div><div class="card__title">Seed for Tomorrow</div><p class="card__desc">Purpose-led sustainability film produced for the Gujarat Government.</p></div>
+        <div class="card__stat"><a class="card__link" href="https://youtu.be/wv4hTO5CvfM" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">PH</span><span class="card__client">PACIFIC HOSPITAL × WBD</span></span>
+          <span class="card__idx">12</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M12 7v10M7 12h10"/>
+        </svg>
+        <div><div class="card__title">Pacific Hospital</div><p class="card__desc">Branded institutional film for Pacific Hospital.</p></div>
+        <div class="card__stat"><a class="card__link" href="https://youtu.be/E02Gm5c-cRY" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+      <div class="card reveal" data-tilt>
+        <div class="card__top">
+          <span class="card__clientrow"><span class="card__brand">KU</span><span class="card__client">KIIT UNIVERSITY × WBD</span></span>
+          <span class="card__idx">13</span>
+        </div>
+        <svg class="card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 3 2 8l10 5 10-5-10-5Z"/>
+          <path d="M6 10.5V16c0 1 3 3 6 3s6-2 6-3v-5.5"/>
+        </svg>
+        <div><div class="card__title">KIIT University</div><p class="card__desc">Branded institutional film for KIIT University.</p></div>
+        <div class="card__stat"><a class="card__link" href="https://youtu.be/-oLR0VmL3mQ" target="_blank" rel="noopener">WATCH FILM ↗</a></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="band band--ink" id="range">
+  <div class="wrap">
+    <div class="scene"><span class="scene__num">SCENE 05</span><span class="scene__rule"></span><span>RANGE</span></div>
+    <div class="range__layout">
+      <blockquote class="range__quote reveal">
+        Over the years, I have contributed to the ideation and development of branded content IPs across a diverse range of industries — <em>FMCG, automotive, fashion, luxury, travel, food, healthcare, finance, technology, education</em> and government-led initiatives. My work lies at the intersection of brand objectives and creative storytelling, shaping ideas that give brands a distinctive voice.
+      </blockquote>
+      <div class="range__industries reveal">
+        <span>FMCG</span><span>Automotive</span><span>Fashion</span><span>Luxury</span><span>Travel</span><span>Food</span><span>Healthcare</span><span>Finance</span><span>Technology</span><span>Education</span><span>Government</span>
+      </div>
+    </div>
+    <div class="range__brandsWrap reveal">
+      <div class="range__brandsLabel">BRANDS &amp; INSTITUTIONS — IP &amp; CONCEPT DEVELOPMENT</div>
+      <div class="range__marquee">
+        <div class="range__track">
+          <span>Titan</span><span>PhonePe</span><span>Kissan</span><span>Yamaha</span><span>MG Motor</span><span>Haldiram's</span><span>Manforce</span><span>Max Healthcare</span><span>Gujarat Tourism</span>
+          <span aria-hidden="true">Titan</span><span aria-hidden="true">PhonePe</span><span aria-hidden="true">Kissan</span><span aria-hidden="true">Yamaha</span><span aria-hidden="true">MG Motor</span><span aria-hidden="true">Haldiram's</span><span aria-hidden="true">Manforce</span><span aria-hidden="true">Max Healthcare</span><span aria-hidden="true">Gujarat Tourism</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--raised" id="partners">
+  <div class="wrap">
+    <div class="scene"><span class="scene__num">SCENE 06</span><span class="scene__rule"></span><span>WORKED WITH</span></div>
+    <div class="partners__grid">
+      <div class="partner reveal">
+        <div class="partner__mark"><img src="assets/partners/coca-cola.svg" alt="Coca-Cola India" loading="lazy"></div>
+        <div class="partner__name">COCA-COLA INDIA</div>
+      </div>
+      <div class="partner reveal">
+        <div class="partner__mark"><span class="partner__wordmark">Vim</span></div>
+        <div class="partner__name">VIM (HUL)</div>
+      </div>
+      <div class="partner reveal">
+        <div class="partner__mark"><img src="assets/partners/mankind.svg" alt="Mankind Pharma" loading="lazy"></div>
+        <div class="partner__name">MANKIND PHARMA</div>
+      </div>
+      <div class="partner reveal">
+        <div class="partner__mark"><img src="assets/partners/nutella.png" alt="Nutella" loading="lazy"></div>
+        <div class="partner__name">NUTELLA</div>
+      </div>
+      <div class="partner reveal">
+        <div class="partner__mark"><img src="assets/partners/wbd.svg" alt="Warner Bros. Discovery" loading="lazy"></div>
+        <div class="partner__name">WARNER BROS. DISCOVERY</div>
+      </div>
+      <div class="partner reveal">
+        <div class="partner__mark"><img src="assets/partners/vivo.svg" alt="Vivo India" loading="lazy"></div>
+        <div class="partner__name">VIVO INDIA</div>
+      </div>
+      <div class="partner reveal">
+        <div class="partner__mark"><img src="assets/partners/kissan.png" alt="Kissan" loading="lazy"></div>
+        <div class="partner__name">KISSAN</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--ink" id="awards">
+  <div class="wrap">
+    <div class="scene"><span class="scene__num">SCENE 07</span><span class="scene__rule"></span><span>RECOGNITION</span></div>
+    <div class="marquee">
+      <div class="marquee__track" id="marqueeTrack"></div>
+    </div>
+  </div>
+</section>
+
+<section class="band band--raised practice" id="practice">
+  <div class="wrap">
+    <div class="scene"><span class="scene__num">SCENE 08</span><span class="scene__rule"></span><span>CREATIVE PRACTICE</span></div>
+    <p class="practice__line" id="typewriter"></p>
+    <div class="practice__sub">SPOKEN WORD ARTIST &amp; WRITER — ORIGINAL PERFORMANCE WORK &amp; INDEPENDENT WRITING PRACTICE</div>
+    <div class="practice__grid">
+      <div class="practice__col reveal">
+        <span class="practice__col__idx">01</span>
+        <svg class="practice__col__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
+          <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+          <path d="M12 19v3M8 22h8"/>
+        </svg>
+        <h4>PERFORMANCE</h4>
+        <p>Writes and performs original spoken-word pieces carrying the same instinct for pacing, structure and a true line that shapes her branded storytelling work onto the stage.</p>
+      </div>
+      <div class="practice__col reveal">
+        <span class="practice__col__idx">02</span>
+        <svg class="practice__col__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 20h9"/>
+          <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/>
+        </svg>
+        <h4>WRITING</h4>
+        <p>An independent writing practice built on a grounding in literature and stagecraft the same foundation that shapes both her scripts and her stage work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="band band--ink footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <h3>Contact</h3>
+        <div class="footer__contact-row">
+          <div class="magnet" data-magnet><a href="mailto:ishagawande1@gmail.com">ishagawande1@gmail.com</a> <button type="button" data-copy="ishagawande1@gmail.com">COPY</button></div>
+          <div class="magnet" data-magnet><a href="tel:+919404655097">+91 94046 55097</a> <button type="button" data-copy="+919404655097">COPY</button></div>
+          <div class="magnet" data-magnet>MUMBAI, INDIA</div>
+        </div>
+      </div>
+      <div class="footer__edu">
+        <h3>Education</h3>
+        <p><b>Fergusson College</b><br>BA, English Literature — 2021</p>
+        <p><b>VMV Art College</b><br>Diploma, Theatre &amp; Stage Craft — 2018</p>
+      </div>
+      <div>
+        <h3>Languages</h3>
+        <div class="footer__langs"><span>ENGLISH</span><span>HINDI</span><span>MARATHI</span></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>ISHA GAWANDE — Senior Creative Producer &amp; Writer</span>
+      <span id="hudTime2">© 2026</span>
+    </div>
+  </div>
+  <div class="credit">
+    <a href="https://www.linkedin.com/in/jaydipnemade16/" target="_blank" rel="noopener">Developed &amp; designed by Jaydip Nemade</a>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
